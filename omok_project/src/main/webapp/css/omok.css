@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'KyoboHand';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+	font-family: KyoboHand;
+}
+body {
+	background-color: #2D585B; /* 어두운 초록색 배경 */
+    color: #FFFFFF;
+}
+.container {
+	margin-top: 10px;
+}
+.wrap {
+	margin: 0 auto;
+	border: 15px solid #DAAB79;
+	border-bottom: 30px solid #DAAB79;
+ 	border-radius: 5px;
+ 	background-color: #2D585B;
+ 	padding: 20px 20px 40px 20px;
+ 	text-align: center;
+}
+.board {
+	margin: 0 auto;
+ 	width: 550px;
+ 	height: 550px;
+ 	text-align: center;
+  	align-content: center;
+  	background-color: #2D585B;
+  	color: white;
+  	border: 2px double white;
+  	border-radius: 10px;
+  	padding: 10px;
+}
+.num {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	display: inline-block;
+	color: #F5CD5C;
+	font-weight: bold;
+}
+.dot, .dot_set {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	display: inline-block;
+}
+.dot:hover {
+	background-color: #F5CD5C;
+	color: black;
+	cursor: pointer;
+}
+.user-field {
+	color:white;
+	display: inline-block;
+	width: 20%;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin: 10px;
+}
+.board-field {
+	display: inline-block;
+}

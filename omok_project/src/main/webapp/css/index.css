@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'KyoboHand';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+	font-family: KyoboHand;
+}
+body {
+	background-color: #2D585B; /* 어두운 초록색 배경 */
+    color: #FFFFFF;
+}
+.login_container {
+	text-align: center;
+	padding: 100px;
+}
+.wrapper {
+	width: 500px;
+	height: 600px;
+	border: 15px solid #DAAB79;
+	border-bottom: 30px solid #DAAB79;
+	border-radius: 5px;
+	background-color: #2D585B;
+	color: white;
+	padding: 10px;
+	margin: 0 auto;
+}
+.text-field {
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+.form-control {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	height: 50px;
+}
+.btn {
+	display: block;
+	width: 100%;
+	margin-bottom: 5px;
+	background-color: #5fa8d3;
+	color: white;
+}
+#dupleBtn {
+	display: inline;
+	position: absolute;
+	width: 80px;
+    height: 40px;
+	margin-left: -85px;
+    margin-top: 5px;
+}
+#joinId {
+	display: inline;
+}
+span {
+	color: yellow;
+}
+span:hover {
+	cursor: pointer;
+}
+#joinDiv {
+	display: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-transition: background-color 9999s ease-out;
+    -webkit-box-shadow: 0 0 0px 1000px #2D585B inset !important;
+    -webkit-text-fill-color: white !important;
+}
