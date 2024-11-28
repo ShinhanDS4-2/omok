@@ -9,6 +9,7 @@
 <body>
 	<div>
 		<h1>Git 테스트</h1>
+		<p>수정 또는 추가 된 내용</p>
 	</div>
 </body>
 </html>
